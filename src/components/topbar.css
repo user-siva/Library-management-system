@@ -1,0 +1,49 @@
+.topbarContainer {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(53, 49, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+}
+
+.topbarLeft {
+    flex: 3;
+    margin: 10px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.topbarCenter {
+    flex: 5;
+}
+
+#search {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 12px;
+    border: none;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.topbarRight {
+    margin: 10px;
+}
+
+#loginBtn {
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    background-color: aqua;
+}
