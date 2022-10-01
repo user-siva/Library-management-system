@@ -9,7 +9,8 @@ function Card() {
                     <img src={process.env.PUBLIC_URL + '/images/1.jpg'} alt="" id='cardImage' width="250px" height="150px" />
                 </div>
                 <div className="cardBottom">
-
+                    <strong id='name'>Name:</strong><span id='bookName'>CUDA by Example</span>
+                    <button className='btn'>View</button>
                 </div>
             </div>
         </div>
