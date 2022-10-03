@@ -47,3 +47,7 @@
     border-radius: 12px;
     background-color: aqua;
 }
+
+#loginBtn:hover {
+    background-color: aquamarine;
+}
