@@ -166,11 +166,11 @@ function StaffTable() {
                 </table>
             </form>
             <form className='edit-form' onSubmit={handleSubmit}>
-                <input type="text" name='id' onChange={handleEdit} />
-                <input type="text" name='name' onChange={handleEdit} />
-                <input type="text" name='phone' onChange={handleEdit} />
-                <input type="text" name='dept' onChange={handleEdit} />
-                <input type="text" name='exp' onChange={handleEdit} />
+                <input type="text" name='id' onChange={handleEdit} required />
+                <input type="text" name='name' onChange={handleEdit} required />
+                <input type="text" name='phone' onChange={handleEdit} required />
+                <input type="text" name='dept' onChange={handleEdit} required />
+                <input type="text" name='exp' onChange={handleEdit} required />
                 <button className='staffbtn'><i class="fa fa-plus"></i>Add Staff</button>
             </form>
         </div >

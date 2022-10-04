@@ -1,0 +1,86 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+thead tr th {
+    background-color: #256D85;
+}
+
+td,
+th {
+    border: 1px solid #DFF6FF;
+    text-align: left;
+    padding: 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: #DFF6FF;
+}
+
+#svgBtn {
+    border: none;
+    background-color: #DFF6FF;
+}
+
+.bookhead {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.bookbtn {
+    width: 95px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 10px;
+}
+
+.bookbtn:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.bookbtn:hover {
+    background-color: aquamarine;
+}
+
+span[title="Save"] {
+    color: #27C46B;
+}
+
+span[title="Edit"] {
+    color: #FFC107
+}
+
+span[title="Delete"] {
+    color: #E34724
+}
+
+#material-icons:hover {
+    cursor: pointer;
+}
+
+.edit-form {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.edit-form input {
+    margin: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.edit-form input:focus {
+    outline: none;
+}
